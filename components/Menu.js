@@ -46,7 +46,6 @@ function menuMaker(menuArr){
   menu.classList.add('menu')
 
   menuArr.forEach(element => {
-    
     const menuItem =  document.createElement('li');
     menuItem.textContent = element;
     menuList.appendChild(menuItem);
