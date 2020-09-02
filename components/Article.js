@@ -164,7 +164,6 @@ function articleMaker(articleObj){
 }
 
 
-
 data.forEach(articleObject => {
   articleParent.appendChild(articleMaker(articleObject))
 })
